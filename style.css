@@ -1,0 +1,126 @@
+
+body {
+    background-image:linear-gradient(rgba(51, 51, 51, 0.7),rgba(65, 64, 64, 0.7)), url("ubit-cover22.png");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+   }
+img{
+    background-color : transparent;
+    float: left ;
+    width: 150px;
+    height: auto;
+    justify-content: center;
+  }
+.x{
+    display: inline;
+    font-size: 30px;
+    margin-right: 50px;
+    float:right;
+    color:whitesmoke;
+    flex-direction: wrap;
+    }
+.x:hover{
+    background-color:whitesmoke;
+    color:black;
+}
+
+.second{
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    transform: translate(-50%,-50%);
+    padding: 10px;
+    
+
+}
+.second h1{
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+
+}
+.second p{
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    text-transform: unset;
+}
+.btn1{
+    border: solid 1.5px;
+    color: whitesmoke;
+    justify-content: center;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 25px;
+    font-weight: 100mm;
+    text-decoration-line: none;
+    padding: 10px 30px;
+
+}
+.btn2{
+    border: solid 1.5px;
+    color: whitesmoke;
+    justify-content: center;
+    text-transform: capitalize;
+    display: inline;
+    font-size: 25px;
+    text-decoration-line: none;
+    padding: 10px 30px;
+
+}
+.btn1:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.btn2:hover{
+    color: black;
+    background-color: whitesmoke;
+}
+.footer-bottom{
+    position: fixed;
+    top: 95%;
+    left: 90%;
+    transform: translate(-35%,-35%);
+    font-size: xx-small;
+    color: #fff;
+
+}
+button {
+    background-color: #812508;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 180px;
+    
+    display: inline;
+  }
+.container{
+font-size: 15px;
+color: whitesmoke;
+padding: 60px;
+text-align: right;
+}
+.email{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+}
+.password{
+    background-color: black;
+    color: whitesmoke;
+    padding: 10px;
+    
+}
+.or{
+    padding-right: 90px;
+    /* padding-bottom: 5px; */
+    font-size: 20px;
+
+}
+.sign{
+    margin: auto;
+}
